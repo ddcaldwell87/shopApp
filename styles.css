@@ -1,0 +1,247 @@
+/* general */
+/**********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Concert One', cursive;
+}
+
+a {
+    color: #176087;
+}
+
+a:hover {
+    color: #53A2BE;
+}
+
+.btn {
+    background-color: #176087;
+    border: none;
+    padding: 0.2em 1em;
+    color: #E9F0F4;
+    cursor: pointer;
+}
+
+section {
+    width: 60%;
+    margin: auto;
+    margin-top: 3.4em;
+}
+
+.top-social-icons {
+    height: 60px;
+    width: 60px;
+}
+
+/* header */
+/**********************/
+
+header {
+    background-color: #132E32;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+#logo {
+    height: 70px;
+    width: 160px;
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    margin-left: 1.3em;
+}
+
+.top-nav-links {
+    color: #E9F0F4;
+    font-size: 1.4em;
+    align-self: center;
+}
+
+.top-nav-links:hover {
+    color: #53A2BE;
+}
+
+#mini-header {
+    background-color:#E9F0F4;
+    text-align: center;
+    height: 30px;
+}
+
+#mini-header p {
+    line-height: 30px;
+}
+
+/* top section */
+/**********************/
+
+#top-section-links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6em;
+}
+
+#categories-links a {
+    margin-right: 1.4em;
+    font-size: 1.15em;
+}
+
+#login-links a {
+    margin-left: 1.4em;
+    font-size: 1.15em;
+}
+
+.banner {
+    height: 50vh;
+    background: url(assets/banner.jpeg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+}
+
+#banner-content {
+    margin-top: 2em;
+}
+
+#banner-content h2 {
+    color: #53A2BE;
+    font-size: 1.5em;
+}
+
+#banner-content form {
+    text-align: center;
+    margin-top: 3em;
+}
+
+.input {
+    border: 1px solid #53A2BE;
+    padding: 0.2em 1em;
+}
+
+.card-container {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#top-left-mini {
+    flex-basis: 60%;
+    height: 40vh;
+    background: url(assets/00intro2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#top-right-mini {
+    flex-basis: 35%;
+    height: 40vh;
+    background: url(assets/bundle2.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.bottom-minis {
+    height: 40vh;
+    flex-basis: 47%;
+}
+
+#bottom-left {
+    background: url(assets/bundle.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#bottom-right {
+    background: url(assets/pack4-header.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* featured section */
+/**********************/
+
+.bar-heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+hr {
+    width: 40%;
+}
+
+.sticker {
+    background-color: gray;
+    height: 20vh;
+}
+
+/* newsletter */
+/**********************/
+
+.newsletter {
+    background-color: #132E32;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2.5em;
+}
+
+.newsletter div {
+    align-self: center;
+}
+
+.newsletter p {
+    color: #E9F0F4;
+}
+
+.newsletter form {
+    align-self: center;
+}
+
+/* footer */
+/**********************/
+
+.container {
+    width: 60%;
+}
+
+footer {
+    background-color: #0A2239;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.copy {
+    float: left;
+}
+
+.copy nav {
+    margin-top: 1.2em;
+    margin-bottom: 1.2em;
+}
+
+footer p {
+    color: #E9F0F4;
+}
+
+.social {
+    float: right;
+}
+
+.social img {
+    margin-left: 1.2em;
+}
+
+.social form {
+    margin-top: 1.2em;
+}
