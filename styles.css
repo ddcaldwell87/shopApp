@@ -168,18 +168,22 @@ nav a {
 /* featured section */
 /**********************/
 
-.bar-heading {
-    display: flex;
-    justify-content: space-between;
-}
-
 hr {
     width: 40%;
+    margin-bottom: 1.3em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 30% 30%;
+    justify-items: center;
 }
 
 .sticker {
     background-color: gray;
-    height: 20vh;
+    height: 25vh;
+    margin-bottom: 1.5em;
 }
 
 /* newsletter */
