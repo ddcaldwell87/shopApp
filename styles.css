@@ -180,6 +180,54 @@ nav a {
     border-bottom: 1px solid #0A2239;
 }
 
+.sticker-container:nth-child(odd) {
+    width: 45%;
+    float: left;
+}
+
+.sticker-container:nth-child(even) {
+    width: 45%;
+    float: right;
+}
+
+.sticker-container img {
+    width: 100%;
+}
+
+/* .sticker-grid-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-height: 2520px;
+    height: 2520px;
+}
+
+div.sticker-container {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    min-width: 200px;
+    max-width: 630px;
+    width: 100%;
+    background: #000;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+div.sticker-container * {
+    box-sizing: border-box;
+}
+
+div.sticker-container img {
+    max-width: 100%;
+    vertical-align: center;
+    height: 630px;
+}
+
+div.sticker-container img {
+    position: absolute;
+} */
+/* 
 .sticker-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -192,14 +240,23 @@ nav a {
     margin-bottom: 2em;
 }
 
-.sticker {
-    height: 100%;
+div.sticker-container:hover img {
+    opacity: 0.3;
+    filter: grayscale(100%);
 }
 
-.sticker:hover {
+.sticker-container.img {
+    transform: scale(0);
+}
+
+.sticker {
+    height: 100%;
+} */
+
+/* .sticker:hover {
     opacity: 0.3;
     filter: greyscale(100%);
-}
+} */
 
 /* newsletter */
 /**********************/
@@ -210,6 +267,7 @@ nav a {
     display: flex;
     justify-content: space-around;
     margin-bottom: 2.5em;
+    clear: both;
 }
 
 .newsletter div {
