@@ -180,6 +180,16 @@ nav a {
     border-bottom: 1px solid #0A2239;
 }
 
+.sticker-container {
+    position: relative;
+    background: #0A2239;
+    margin: 2em 0;
+}
+
+.sticker-container * {
+    box-sizing: border-box;
+}
+
 .sticker-container:nth-child(odd) {
     width: 45%;
     float: left;
@@ -192,6 +202,83 @@ nav a {
 
 .sticker-container img {
     width: 100%;
+}
+
+.sticker-container:hover img {
+    opacity: 0.3;
+    filter: grayscale(100%);
+}
+
+.sticker-container a {
+    position: absolute;
+    top: 40%;
+    left:50%;
+    color: #E9F0F4;
+    font-size: 1.5em;
+}
+
+.sticker-container a:hover {
+    color: #53A2BE;
+}
+
+.sticker-container p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #E9F0F4;
+    font-size: 1.2em;
+}
+
+.sticker-container p span {
+    text-decoration: line-through;
+}
+
+.sticker-container input {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+}
+
+.sticker-container input#feature-btn {
+    background: #53A2BE;
+}
+
+.sticker-container input#feature-btn:hover {
+    background: #176087;
+}
+
+.sticker-container * {
+    transition: all 0.35s ease-in-out;
+}
+
+.sticker-container a {
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.sticker-container:hover a {
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.sticker-container p {
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.sticker-container:hover p {
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.sticker-container input {
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.sticker-container:hover input {
+    transform: translate(-50%, -50%) scale(1);
+    transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 /* .sticker-grid-container {
